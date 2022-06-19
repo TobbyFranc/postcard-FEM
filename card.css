@@ -130,7 +130,7 @@ button:hover{
 
   .cancel{
     width: 80%;
-    margin-left: 100px;
+    margin-left: 130px;
     margin-top: 15px;
     padding: 10px;
     color: hsl(223, 47%, 23%);
@@ -142,7 +142,7 @@ button:hover{
 
   .cancel:hover{
     width: 80%;
-    margin-left: 100px;
+    margin-left: 130px;
     margin-top: 15px;
     padding: 10px;
     color: rgb(231, 48, 186);
