@@ -15,7 +15,7 @@ body {
 main {
   background-color: #fff;
   width: 30%;
-  height: 85%;
+  height: 85vh;
   box-sizing: border-box;
   padding: 20px;
   border-radius: 20px;
@@ -94,10 +94,10 @@ main div {
   cursor: pointer;
 }
 
-.plan p:hover{
-    color: rgb(231, 48, 186);
-    cursor: pointer;
-  }
+.plan p:hover {
+  color: rgb(231, 48, 186);
+  cursor: pointer;
+}
 
 button {
   justify-content: center;
@@ -114,40 +114,27 @@ button {
   font-size: large;
 }
 
-button:hover{
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    border: 0;
-    border-radius: 12px;
-    background-color: rgb(231, 48, 186);
-    color: #fff;
-    margin-top: 20px;
-    width: 100%;
-    box-shadow: 0 12px 20px 2px hsl(224, 23%, 55%);
-    cursor: pointer;
-  }
+button:hover {
+  background-color: rgb(231, 48, 186);
+  color: #fff;
 
-  .cancel{
-    width: 80%;
-    margin-left: 130px;
-    margin-top: 15px;
-    padding: 10px;
-    color: hsl(223, 47%, 23%);
-    font-weight: bolder;
-    stroke: hsl(223, 47%, 23%);
-    cursor: pointer;
-  }
- 
+  box-shadow: 0 12px 20px 2px hsl(224, 23%, 55%);
+  cursor: pointer;
+}
 
-  .cancel:hover{
-    width: 80%;
-    margin-left: 130px;
-    margin-top: 15px;
-    padding: 10px;
-    color: rgb(231, 48, 186);
-    font-weight: bolder;
-    stroke: hsl(223, 47%, 23%);
-    cursor: pointer;
-  }
- 
+.cancel {
+  width: 80%;
+  margin-left: 130px;
+  margin-top: 15px;
+  padding: 10px;
+  color: hsl(223, 47%, 23%);
+  font-weight: bolder;
+  stroke: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+.cancel:hover {
+  color: rgb(231, 48, 186);
+  stroke: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
