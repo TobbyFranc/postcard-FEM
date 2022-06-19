@@ -21,7 +21,7 @@ main {
   border-radius: 20px;
   position: absolute;
   top: 50px;
-  left: 700px;
+  left: 500px;
 }
 
 /*Trying to attach the tunes image to the mother container*/
@@ -37,8 +37,8 @@ main {
 
 main div {
   position: relative;
-  top: 15vh;
-  margin: 10px;
+  top: 13vh;
+  margin: 2px 6px 2px 6px;
   padding: 4px;
 }
 
@@ -49,13 +49,13 @@ main div {
 .describe h2 {
   font-size: xx-large;
   font-weight: 900px;
-  margin-bottom: 10px;
+  margin: 6px 0 6px 0;
   color: hsl(223, 47%, 23%);
 }
 
 .describe p {
-  font-size: x-large;
-  font-weight: 10px;
+  /*font-size: x-large;*/
+  font-weight: 3px;
   margin: 4px;
   color: hsl(224, 23%, 55%);
 }
@@ -63,18 +63,18 @@ main div {
 .plan {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   min-height: auto;
   background-color: hsl(225, 100%, 98%);
-  margin: 50px;
+  margin-top: 20px;
   align-items: center;
-  padding: 24px;
+  padding: 20px;
   border-radius: 12px;
 }
 
 .plan nav ul li {
   list-style: none;
-  margin: 0 100px 0px 20px;
+  margin: 0 70px 0px 20px;
 }
 
 .plan .h3 {
@@ -107,8 +107,8 @@ button {
   border-radius: 12px;
   background-color: hsl(245, 75%, 52%);
   color: #fff;
-  margin-left: 50px;
-  width: 80%;
+  margin-top: 20px;
+  width: 100%;
   box-shadow: 0 12px 20px 2px hsl(224, 23%, 55%);
   cursor: pointer;
   font-size: large;
@@ -122,15 +122,15 @@ button:hover{
     border-radius: 12px;
     background-color: rgb(231, 48, 186);
     color: #fff;
-    margin-left: 50px;
-    width: 80%;
+    margin-top: 20px;
+    width: 100%;
     box-shadow: 0 12px 20px 2px hsl(224, 23%, 55%);
     cursor: pointer;
   }
 
   .cancel{
     width: 80%;
-    margin-left: 180px;
+    margin-left: 100px;
     margin-top: 15px;
     padding: 10px;
     color: hsl(223, 47%, 23%);
@@ -142,7 +142,7 @@ button:hover{
 
   .cancel:hover{
     width: 80%;
-    margin-left: 180px;
+    margin-left: 100px;
     margin-top: 15px;
     padding: 10px;
     color: rgb(231, 48, 186);
